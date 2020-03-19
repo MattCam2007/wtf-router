@@ -1,0 +1,23 @@
+{
+  "name": "wtf/router",
+  "type": "package",
+  "version": "0.2.0",
+  "homepage": "http://www.matthewcameron.ca",
+  "license": "Copyright 2018, Matthew Cameron",
+  "description": "A PHP-SDK for Twitter Search API",
+  "keywords": ["wtf", "what the framework", "psr-15", "dispatcher", "router"],
+  "config": {
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Wtf\\Routing\\" : "src/",
+      "Wtf\\Routing\\Tests\\" : "tests/"
+    }
+  },
+  "require": {
+    "psr/http-server-middleware": "^1.0",
+    "psr/http-server-handler": "^1.0",
+    "phpunit/phpunit": "7.0.2"
+  }
+}
