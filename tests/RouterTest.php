@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: matthew
- * Date: 27/03/18
- * Time: 9:13 AM
- */
 
 namespace Wtf\Routing\Tests;
 
